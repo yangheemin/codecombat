@@ -20,7 +20,7 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
     blog: "블로그"
     forum: "포럼"
     account: "계정"
-#    profile: "Profile"
+    profile: "프로필"
 #    stats: "Stats"
     code: "코드"
     admin: "관리자" # Only shows up when you are an admin
@@ -51,14 +51,14 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
     play_as: "Play As " # Ladder page
     spectate: "관중모드" # Ladder page
 #    players: "players" # Hover over a level on /play
-#    hours_played: "hours played" # Hover over a level on /play
+    hours_played: "플레이 시간" # Hover over a level on /play
     items: "아이템" # Tooltip on item shop button from /play
-#    unlock: "Unlock" # For purchasing items and heroes
-#    confirm: "Confirm"
-#    owned: "Owned" # For items you own
-#    locked: "Locked"
-#    purchasable: "Purchasable" # For a hero you unlocked but haven't purchased
-#    available: "Available"
+    unlock: "해제" # For purchasing items and heroes
+    confirm: "잠금을 해제하시겠습니까?"
+    owned: "소지품" # For items you own
+    locked: "잠김"
+    purchasable: "구매가능" # For a hero you unlocked but haven't purchased
+    available: "사용가능"
 #    skills_granted: "Skills Granted" # Property documentation details
 #    heroes: "Heroes" # Tooltip on hero shop button from /play
 #    achievements: "Achievements" # Tooltip on achievement list button from /play
